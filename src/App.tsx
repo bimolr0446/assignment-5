@@ -4,6 +4,7 @@ import HeroBanner from "./components/HeroBanner";
 import Nav from "./components/Nav";
 import type { TechnologyType } from "./types/technologyType";
 import TechnologyGrid from "./components/TechnologyGrid";
+import Footer from "./components/Footer";
 
 const techDataPromise = async (): Promise<TechnologyType[]> => {
   const res = await fetch("/techData.json");
@@ -25,6 +26,7 @@ function App() {
       >
         <TechnologyGrid techDataPromise={techDataPromise()}></TechnologyGrid>
       </Suspense>
+      <Footer></Footer>
     </>
   );
 }
