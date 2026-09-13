@@ -1,1 +1,15 @@
 @import "tailwindcss";
+
+
+.techBtn {
+    background-color: rgb(252, 220, 220);
+    color: rgb(135, 32, 238);
+
+}
+
+.brand-gradient {
+    background-image: linear-gradient(to right,
+            #ff5722,
+            #ec4899,
+            #7c3aed);
+}
