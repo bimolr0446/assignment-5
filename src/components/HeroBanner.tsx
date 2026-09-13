@@ -1,4 +1,4 @@
-import heroImg from "../assets/banner-stack.png";
+import bannerLogo from "../assets/banner-stack.png";
 
 const HeroBanner = () => {
   return (
@@ -36,7 +36,7 @@ const HeroBanner = () => {
 
         <div>
           <img
-            src={heroImg}
+            src={bannerLogo}
             alt=""
             className="w-112.5 transition duration-500 hover:scale-105"
           />
